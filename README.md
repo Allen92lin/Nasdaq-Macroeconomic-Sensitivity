@@ -1,4 +1,4 @@
-# macroeconomic-tech-valuation-analysis
+# Macroeconomic Sensitivity of Technology Equities
 
 Rolling-regression analysis of how the relationship between macroeconomic conditions 
 and Nasdaq-100 returns has changed over 20 years.
