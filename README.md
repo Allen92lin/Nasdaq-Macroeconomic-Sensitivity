@@ -9,7 +9,9 @@ A full-sample regression finds no relationship between 10-year Treasury yield ch
 and Nasdaq-100 returns (beta = +0.005, p = 0.843, R² = 0.017). That result is
 misleading. The relationship exists, but it reversed sign partway through the sample
 and the two regimes cancel out when averaged.
+
 ![Rolling coefficient on 10-year yield changes, 60-month window](rolling_dDGS10.png)
+
 | Period | Rate sensitivity |
 |---|---|
 | 2005-04 to 2015-06 | **+0.043**  |
@@ -18,7 +20,7 @@ and the two regimes cancel out when averaged.
 
 Rolling regression over 187 overlapping 60-month windows traces the full transition:
 sensitivity runs from **+0.07 (2014, t = 2.9)** to **-0.10 (2024, t = -3.4)**, crossing
-zero during 2022. Rolling R² ranges from 0.021 to 0.210, meaning macro conditions
+zero during 2022. Rolling R² ranges from 0.021 to 0.211, meaning macro conditions
 explained ten times more variation in some periods than others.
 
 The economic interpretation is that the sign depends on what drives yields higher.
