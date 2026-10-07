@@ -36,10 +36,8 @@ reflected monetary tightening, and the discount-rate effect dominated.
    start of a quarter but the BEA publishes it roughly a month after the quarter ends.
 3. **Baseline OLS** with HAC (Newey-West) standard errors, plus a broad-market control
    (SPY and QQQ minus SPY) to test whether tech equities are distinctively sensitive.
-4. **Structural test.** Period dummy and interaction term (difference = -0.085,
-   p = 0.050).
-5. **Rolling regression**, 60-month window, with ±2 standard error bands.
-6. **Out-of-sample walk-forward validation** with lagged predictors.
+4. **Rolling regression**, 60-month window, with ±2 standard error bands.
+5. **Out-of-sample walk-forward validation** with lagged predictors.
 
 ## Out-of-sample result
 
@@ -52,10 +50,6 @@ trailing-mean benchmark on both metrics:
 | Directional accuracy | 0.575 | 0.640 |
 | Out-of-sample R² | **-0.078** | |
 
-Adding term and credit spreads, switching to an expanding window, and imposing
-Campbell-Thompson sign restrictions narrow the gap (best OOS R² = -0.015) but never
-close it. This is consistent with Welch and Goyal (2008), who find that most proposed
-predictors fail to beat the historical mean out of sample.
 
 **This project is an explanatory framework for how macro sensitivity changes over time,
 not a forecasting tool.**
