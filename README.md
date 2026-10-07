@@ -69,5 +69,5 @@ not a forecasting tool.**
 ## Running it
 
 ```bash
-pip install yfinance pandas-datareader statsmodels matplotlib
-python macro_tech_analysis.py
+pip install -r requirements.txt
+jupyter notebook Macro.ipynb
