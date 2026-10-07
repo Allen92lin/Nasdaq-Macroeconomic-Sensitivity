@@ -6,15 +6,15 @@ and Nasdaq-100 returns has changed over 20 years.
 ## Key finding
 
 A full-sample regression finds no relationship between 10-year Treasury yield changes
-and Nasdaq-100 returns (beta = +0.005, p = 0.842, R² = 0.018). That result is
+and Nasdaq-100 returns (beta = +0.005, p = 0.843, R² = 0.017). That result is
 misleading. The relationship exists, but it reversed sign partway through the sample
 and the two regimes cancel out when averaged.
-
+![Rolling coefficient on 10-year yield changes, 60-month window](rolling_dDGS10.png)
 | Period | Rate sensitivity |
 |---|---|
-| 2005-04 to 2015-06 | **+0.043** (p = 0.046) |
-| 2015-07 to 2025-10 | **-0.042** |
-| Full sample | +0.005 (p = 0.842) |
+| 2005-04 to 2015-06 | **+0.043**  |
+| 2015-07 to 2025-10 | **-0.0423** |
+| Full sample | +0.005 (p = 0.843) |
 
 Rolling regression over 187 overlapping 60-month windows traces the full transition:
 sensitivity runs from **+0.07 (2014, t = 2.9)** to **-0.10 (2024, t = -3.4)**, crossing
